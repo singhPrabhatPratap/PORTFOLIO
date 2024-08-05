@@ -115,7 +115,7 @@ nav>a:hover{
 }
 .mypic{
     width: 25vw;
-    height: 47vh;
+    /* height: 47vh; */
    border: 2px solid white;
    padding: 30px;
     border-radius:50% ;
@@ -224,7 +224,7 @@ li i {
     width: 100%;
 height: 100%;
 }
-@media(max-width:340px){
+@media(max-width:420px){
     .text3{
         display: grid;
         grid-template-columns: 1fr;
