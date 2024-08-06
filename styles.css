@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 } 
  html,body{
     width: 100vw;
@@ -29,7 +30,7 @@ header{
 .logo{
     color:rgb(98, 241, 193);
     font-weight: bolder;
-    text-shadow:5px 10px 5px rgb(98, 241, 193);
+    /* text-shadow:5px 10px 5px rgb(98, 241, 193); */
 }
 .line{
     margin-bottom: 10px;
@@ -69,7 +70,8 @@ nav>a:hover{
  grid-template-rows:1fr;
 }
 .reaches a:hover{
-   box-shadow: 0 0 20px rgb(98, 241, 193);
+   /* box-shadow: 0 0 20px rgb(98, 241, 193); */
+   color: rgb(4, 99, 69) ;
    
 }
 .moreabout{
@@ -114,12 +116,12 @@ nav>a:hover{
     background-position: center;
 }
 .mypic{
-    width: 25vw;
+    width: 20vw;
     /* height: 47vh; */
    border: 2px solid white;
    padding: 30px;
-    border-radius:50% ;
-    box-shadow: 0 0 40px  rgb(98, 241, 193);
+    border-radius:85% ;
+    /* box-shadow: 0 0 40px  rgb(98, 241, 193); */
 }
 .main{
     pointer-events: none;
@@ -129,13 +131,13 @@ nav>a:hover{
     display: flex;
    justify-content: space-between;
    height: 85vh;
-   box-shadow: 0 0 40px  rgb(98, 241, 193);
+   /* box-shadow: 0 0 40px  rgb(98, 241, 193); */
 }
 .main2{
     position: relative;
     width: 100%;
     background-color:transparent;
-    box-shadow: inset 0 0 20px rgb(152, 239, 210);
+    /* box-shadow: inset 0 0 20px rgb(152, 239, 210); */
     padding: 20px;
 } 
 .texts{
@@ -169,7 +171,7 @@ margin-bottom: 10px;
     width: 50%;
     height: 40%;
     border-radius: 20px;
-    box-shadow: 20px 20px 20px ;
+    /* box-shadow: 20px 20px 20px ; */
 }
 .text3{
     display: grid;
@@ -191,7 +193,7 @@ margin-bottom: 10px;
     position: relative;
 }
 .text3 div{
-    box-shadow:inset 0 0 20px rgb(140, 232, 201);
+    /* box-shadow:inset 0 0 20px rgb(140, 232, 201); */
  margin-top: 10px;
     color: rgb(140, 232, 201);
     padding: 10px;
@@ -234,8 +236,9 @@ height: 100%;
     .line{
         display: none;
     }
-}
-@media(max-width:420px){
+    .mypic{
+        border: none;
+    }
     .text3 .skill{
         grid-column-start: 1;    
         grid-row-start: 1;
@@ -259,7 +262,7 @@ height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:1fr;
-   box-shadow:inset 0 0 0 rgb(80, 241, 187);
+   /* box-shadow:inset 0 0 0 rgb(80, 241, 187); */
 }
 .tvcontainer{
     position: relative;
@@ -309,14 +312,17 @@ center{
     display: flex;
     margin-top: 10px;
 flex-wrap: wrap;
+justify-content: center;
 }
 .tecdet li{
+
     color: white;
     border: 2px solid rgb(80, 241, 187);
     margin: 5px;
     padding: 5px;
-    border-radius:45%;
-    box-shadow: inset 0 0 25px rgb(84, 198, 160);
+
+    /* border-radius:45%; */
+    /* box-shadow: inset 0 0 25px rgb(84, 198, 160); */
 }
 @media(max-width:600px){
     
@@ -342,7 +348,8 @@ flex-wrap: wrap;
         height: 40%;
     }
     .mypic{
-        width: 70vw;
+        width: 50vw;
+        border: none;
     }
     .text{
         width: 100%;

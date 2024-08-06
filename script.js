@@ -1,4 +1,4 @@
-{/* <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  {/* <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
 <script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
@@ -87,7 +87,7 @@
    World.add(world, attractiveBody)
  
    // add some bodies that to be attracted
-   for (var i = 0; i < 60; i += 1) {
+   for (var i = 0; i < 10; i += 1) {
      let x = Common.random(0, render.options.width)
      let y = Common.random(0, render.options.height)
      let s = Common.random() > 0.6 ? Common.random(10, 80) : Common.random(4, 60)
@@ -297,15 +297,15 @@ executeFrame();
 
 var types = new Typed(".textcome",{
   strings:["Frontened Developer","Backened Developer","Full Stack Developer"],
-  typeSpeed:100,
-  backSpeed:100,
-  backDelay:1000,
+  typeSpeed:70,
+  backSpeed:70,
+  backDelay:70,
     loop:true
 })
 
 var moreAboutElements = document.getElementsByClassName('moreabout');
 for (var i = 0; i < moreAboutElements.length; i++) {
   moreAboutElements[i].addEventListener('click', function() {
-      document.querySelector('.main2').scrollIntoView({ behavior: 'smooth' });
+      document.querySelector('.project-container').scrollIntoView({ behavior: 'smooth' });
   });
 }
