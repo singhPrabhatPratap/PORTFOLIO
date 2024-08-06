@@ -233,13 +233,14 @@ height: 100%;
     }
 }
 @media(max-width:420px){
+    .main{
+        height: 90vh;
+    }
     .text3{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-   
-    
     .mypicbox{
         margin-top: 50px;
         width: 100%;
@@ -247,7 +248,7 @@ height: 100%;
     }
     .mypic{
         border: none;
-        width: 50%;
+        width: 40%;
     }
     .text3 .skill{
         grid-column-start: 1;    
