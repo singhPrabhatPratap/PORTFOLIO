@@ -130,7 +130,7 @@ nav>a:hover{
     background-color:transparent;
     display: flex;
    justify-content: space-between;
-   height: 97vh;
+   height: 95vh;
    /* box-shadow: 0 0 40px  rgb(98, 241, 193); */
 }
 .main2{
@@ -239,9 +239,7 @@ height: 100%;
         grid-template-rows: 1fr 1fr 1fr;
     }
    
-    .line{
-        display: none;
-    }
+    
     .mypicbox{
         margin-top: 50px;
         width: 100%;
