@@ -87,7 +87,7 @@
    World.add(world, attractiveBody)
  
    // add some bodies that to be attracted
-   for (var i = 0; i < 10; i += 1) {
+   for (var i = 0; i <70; i += 1) {
      let x = Common.random(0, render.options.width)
      let y = Common.random(0, render.options.height)
      let s = Common.random() > 0.6 ? Common.random(10, 80) : Common.random(4, 60)
@@ -309,3 +309,9 @@ for (var i = 0; i < moreAboutElements.length; i++) {
       document.querySelector('.project-container').scrollIntoView({ behavior: 'smooth' });
   });
 }
+
+
+
+
+
+
